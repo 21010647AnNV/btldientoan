@@ -1,0 +1,241 @@
+body{
+    background-color: #F9F9F9;
+}
+.logo a{
+    text-decoration: none;
+    color:black;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    position: relative;
+    margin:auto;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-head #tin{
+    border:1px solid #DEE5EB;
+    background-color: #FBFBFB;
+    padding: 5px 8px;
+    font-size: 13px;
+    color: #999999;
+    border-radius: 4px;
+}
+.right-head {
+    display: flex;
+    align-items: center;
+}
+.main-menu{
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    margin-top:5px;
+    height: 40px;
+    width: 100%;
+}
+
+.main-menu ul{
+    display: flex;
+    margin-top:-5px;
+}
+.main-menu a{
+    color:#2C2626;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.main-menu li{
+    position: relative;
+    padding: 5px 4px;
+    margin-right:5px;
+    list-style-type: none;
+}
+
+.main-menu .drop-menu{
+    display: none;
+    top:45px;
+    position: absolute;
+    z-index: 999;
+    min-width: 190px;
+    padding-top:8px;
+    background-color: white;
+}
+.main-menu .drop-menu a{
+    display: block;
+    font-size: 14.5px;
+    padding: 6px 15px;
+    color:#2c2626;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-menu li:hover .drop-menu{
+    display: block;
+    border-top: 1px solid red;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #008ce9, #0fffa3);
+
+
+}
+.main-menu .review{
+    color:#0C77F4;
+    border:2px solid #0C77F4;
+    padding: 3px 12px;
+    border-radius: 15px;
+    background-color: #E5F5FF;
+}
+
+#main-title{
+    font-size: 44px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    margin-left:75px;
+}
+
+.title{
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: 700;
+    text-decoration: none;
+    color:black;
+    padding:5px 10px;
+}
+
+.khoi-tin-1{
+    width: 1100px;
+    margin:auto;
+    background-color: white;
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+.khoi-tin-1 .border{
+    width: 1100px;
+    height: 3px;
+    background-color: #1493F3;
+    margin-top:10px;
+}
+.khoi-tin-1 .khoi-tin-tren{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0;
+}
+.khoi-tin-1 .khoi-tin-tren .content{
+    width: calc(1100px / 3 - 33px);
+    padding-right:25px;
+    border-right:1px solid rgb(198, 198, 198);
+}
+.khoi-tin-1 .khoi-tin-tren .content:last-child{
+    border:unset;
+    padding-right:unset;
+}
+.khoi-tin-1 .khoi-tin-tren .descript{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: 'Lora', serif;
+    color:black;
+}
+.khoi-tin-1 .khoi-tin-tren .descript:hover{
+    color:#1493F3;
+}
+
+.khoi-tin-1 .khoi-tin-duoi{
+    padding:20px 0;
+    border-top:1px solid rgb(198, 198, 198);
+    border-bottom: 3px solid rgb(198, 198, 198);
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+}
+.khoi-tin-1 .khoi-tin-duoi .content{
+    width: calc(1100px / 4 - 20px);
+}
+.khoi-tin-1 .khoi-tin-duoi .descript{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22.1px;
+    font-family: 'Lora', serif;
+    color:black;
+}
+.khoi-tin-1 .khoi-tin-duoi .descript:hover{
+    color:#1493F3;
+}
+
+.khoi-tin-2{
+    width: 1100px;
+    padding-top:20px;
+    border-top:1px solid #999999;
+    display: flex;
+    margin:auto;
+}
+
+.khoi-tin-2 .ads{
+    width: 730px;
+}
+.khoi-tin-2 .flexbox{
+    display: flex;
+    width: 730px;
+    gap:50px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(192, 192, 192);
+    margin-bottom: 20px;
+}
+.khoi-tin-2 .khoi-tin-trai{
+    padding-right:30px;
+    border-right:1px solid #999999;
+}
+.khoi-tin-2 .flexbox .content{
+    width: 340px;
+    background-color: white;
+    height: 440px;
+    margin-top:30px;
+}
+.khoi-tin-2 .flexbox .main-title-1{
+    display: block;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: none;
+    color:black;
+    padding:15px;
+}
+.khoi-tin-2 .flexbox .main-title-1:hover{
+    color:#1493F3
+}
+.khoi-tin-2 .flexbox .child-title-1{
+    display: block;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 19.6px;
+    text-decoration: none;
+    color:black;
+    padding:15px;
+}
+
+.khoi-tin-2 .khoi-tin-phai{
+    width: 320px;
+    margin-left:30px;
+}
+.khoi-tin-2 .khoi-tin-phai .content{
+    margin-top:20px;
+}
+
+.khoi-tin-2 .khoi-tin-phai .content:first-child{
+    margin-top:unset;
+}
+
+.khoi-tin-2 .khoi-tin-trai .paging button{
+    border-radius: 4px;
+    padding:10px 15px;
+    border:1px solid rgb(202, 202, 202);
+}
+
+.khoi-tin-2 .khoi-tin-trai .active{
+    border:none;
+    color:white;
+    background-color: #008ce9;
+}
